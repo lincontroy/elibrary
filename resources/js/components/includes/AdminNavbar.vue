@@ -1,13 +1,11 @@
 <template>
       <div class="wrapper">
-     <nav class="main-header navbar navbar-expand-md navbar-dark navbar-dark">
+     <nav class="navbar navbar-expand-md navbar-dark navbar-dark">
             <div class="container">
                 <a href="" class="navbar-brand"> 
                     <span class="brand-text font-weight-light"><b>Elibrary</b></span>
                 </a>
-                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
-                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
